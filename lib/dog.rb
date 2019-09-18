@@ -6,7 +6,7 @@ class Dog
     @name = name
     @breed = breed
     
-    if breed == none
+    if breed == 0
       puts "Mutt"
     end
   end
