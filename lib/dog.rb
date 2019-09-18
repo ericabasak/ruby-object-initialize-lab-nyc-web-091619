@@ -6,7 +6,7 @@ class Dog
     @name = name
     @breed = breed
     
-    if breed == 0
+    if breed.nil?
       puts "Mutt"
     end
   end
