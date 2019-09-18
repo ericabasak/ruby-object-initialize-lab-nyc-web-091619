@@ -7,7 +7,7 @@ class Dog
     @breed = breed
     
     if breed.nil?
-      puts "Mutt"
+      @breed = "Mutt"
     end
   end
 end
